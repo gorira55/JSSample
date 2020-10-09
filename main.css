@@ -1,0 +1,21 @@
+.pyonpyon span {
+    animation: pyon 0.3s linear;
+    position: relative;
+}
+
+@keyframes pyon {
+    0% {top: 0}
+    50% {top: -17px}
+    100% {top: 0}
+}
+
+.irokae span {
+    animation: kae 0.3s linear;
+    position: relative;
+}
+
+@keyframes kae {
+    0% { color: rgb(0, 225, 255); }
+  50% { color: rgb(229, 255, 0); }
+  100% { color: rgb(250, 11, 51); }
+}
